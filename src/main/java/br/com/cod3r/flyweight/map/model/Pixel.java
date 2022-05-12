@@ -1,19 +1,19 @@
 package br.com.cod3r.flyweight.map.model;
 
 public class Pixel {
-	private PixelType type;
+	private PixelTypeFactory type;
 	private boolean oppened;
 	
-	public Pixel(PixelType type, boolean oppened) {
+	public Pixel(PixelTypeFactory type, boolean oppened) {
 		this.type = type;
 		this.oppened = oppened;
 	}
 
-	public PixelType getType() {
+	public PixelTypeFactory getType() {
 		return type;
 	}
 
-	public void setType(PixelType type) {
+	public void setType(PixelTypeFactory type) {
 		this.type = type;
 	}
 
